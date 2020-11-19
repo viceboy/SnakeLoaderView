@@ -1,0 +1,3 @@
+include ':reptileloader'
+include ':app'
+rootProject.name = "ReptileLoader"

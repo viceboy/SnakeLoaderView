@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="SnakeLoaderView">
+        <attr name="bgColor" format="color" />
+        <attr name="loaderColor" format="color" />
+        <attr name="loaderPadding" format="dimension" />
+        <attr name="loaderImage" format="reference" />
+        <attr name="loaderWidth" format="dimension" />
+        <attr name="loaderSpeed" format="integer" />
+        <attr name="loaderLength" format="dimension" />
+
+        <!--<attr name="loaderType" format="enum">
+            <enum name="RECTANGLE" value="0" />
+            <enum name="ROUNDED_RECT" value="1" />
+            <enum name="OVAL" value="2" />
+        </attr>-->
+        <attr name="imageScaleType" format="enum">
+            <enum name="CENTER" value="0" />
+            <enum name="FIT_XY" value="1" />
+        </attr>
+    </declare-styleable>
+</resources>
