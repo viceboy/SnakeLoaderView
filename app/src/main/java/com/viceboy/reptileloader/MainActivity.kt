@@ -34,4 +34,8 @@ class MainActivity : AppCompatActivity() {
             }
         })
     }
+	
+	companion object {
+	    private const val TAG_NEW = "main_activity"
+	}
 }
