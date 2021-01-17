@@ -39,4 +39,3 @@ class MainActivity : AppCompatActivity() {
 	     private const val TAG = "main_active"
 	}
 }
-
